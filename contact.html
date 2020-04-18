@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematic Studio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <div class="top-header">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Logo">
+                </div>
+                <div class="sign-up-button">
+                    <a href="#bottom" class="bottom">
+                        <button type="button">Sign Up</button>
+                    </a>
+                </div>
+            </div>
+
+            <nav class="navigation">
+                <div class="navicon">
+                    <div></div>
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Products</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="active">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            <article class="contact-content">
+                <div class="contact-banner">
+                    <img src="img/beebanner.png" alt="Contact Banner">
+                    <div class="contact-banner-text">
+                        <p>Contact Us</p>
+                    </div>
+                </div>
+
+                <div class="form-wrap">
+                    <form action="somePhpPage.php" method="GET" id="htmlForm">
+                        <div>
+                            <label for="firstName">Full Name</label>
+                            <input 
+                            type="text" name="firstName" id="firstName"
+                            required 
+                            autofocus  
+                            />  
+                        </div>
+                        <div>
+                            <label for="lastName">Email</label>
+                            <input type="text" name="lastName" id="lastName" maxlength="20">
+                        </div>
+                        <div>
+                            <label for="comment">Message</label>
+                            <textarea name="comment" id="comment"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="contact-button">Submit</button>
+                        </div>
+                    </form>
+                </div>  
+            </article>
+        </div>
+                    
+        <footer>
+            <div class="footer">
+                <div class="footer-nav">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="products.html">Products</a>
+                            </li>
+                            <li>
+                                <a href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="active">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="contact-info">
+                    <img src="img/social.png" alt="social-media-logo">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
